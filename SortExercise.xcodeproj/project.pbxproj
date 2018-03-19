@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		898BA7D8205FD8070023272D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 898BA7D7205FD8070023272D /* main.m */; };
+		898BA7E0205FDAC70023272D /* gulugulu.c in Sources */ = {isa = PBXBuildFile; fileRef = 898BA7DE205FDAC70023272D /* gulugulu.c */; };
+		898BA7E3205FE5DD0023272D /* selectSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 898BA7E1205FE5DD0023272D /* selectSort.c */; };
+		898BA7E9205FEA480023272D /* insertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 898BA7E7205FEA480023272D /* insertSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		898BA7D4205FD8070023272D /* SortExercise */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SortExercise; sourceTree = BUILT_PRODUCTS_DIR; };
 		898BA7D7205FD8070023272D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		898BA7DE205FDAC70023272D /* gulugulu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = gulugulu.c; sourceTree = "<group>"; };
+		898BA7DF205FDAC70023272D /* gulugulu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = gulugulu.h; sourceTree = "<group>"; };
+		898BA7E1205FE5DD0023272D /* selectSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = selectSort.c; sourceTree = "<group>"; };
+		898BA7E2205FE5DD0023272D /* selectSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = selectSort.h; sourceTree = "<group>"; };
+		898BA7E7205FEA480023272D /* insertSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = insertSort.c; sourceTree = "<group>"; };
+		898BA7E8205FEA480023272D /* insertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insertSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +67,38 @@
 			isa = PBXGroup;
 			children = (
 				898BA7D7205FD8070023272D /* main.m */,
+				898BA7EA205FEA510023272D /* 插入排序 */,
+				898BA7E5205FEA0C0023272D /* 选择排序 */,
+				898BA7E6205FEA210023272D /* 冒泡排序 */,
 			);
 			path = SortExercise;
+			sourceTree = "<group>";
+		};
+		898BA7E5205FEA0C0023272D /* 选择排序 */ = {
+			isa = PBXGroup;
+			children = (
+				898BA7E2205FE5DD0023272D /* selectSort.h */,
+				898BA7E1205FE5DD0023272D /* selectSort.c */,
+			);
+			path = "选择排序";
+			sourceTree = "<group>";
+		};
+		898BA7E6205FEA210023272D /* 冒泡排序 */ = {
+			isa = PBXGroup;
+			children = (
+				898BA7DF205FDAC70023272D /* gulugulu.h */,
+				898BA7DE205FDAC70023272D /* gulugulu.c */,
+			);
+			path = "冒泡排序";
+			sourceTree = "<group>";
+		};
+		898BA7EA205FEA510023272D /* 插入排序 */ = {
+			isa = PBXGroup;
+			children = (
+				898BA7E7205FEA480023272D /* insertSort.c */,
+				898BA7E8205FEA480023272D /* insertSort.h */,
+			);
+			path = "插入排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				898BA7D8205FD8070023272D /* main.m in Sources */,
+				898BA7E3205FE5DD0023272D /* selectSort.c in Sources */,
+				898BA7E9205FEA480023272D /* insertSort.c in Sources */,
+				898BA7E0205FDAC70023272D /* gulugulu.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
