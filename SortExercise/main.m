@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include "gulugulu.h"
 #include "selectSort.h"
+#include "quickSort.h"
 
 int main(int argc, const char * argv[]) {
    
@@ -23,7 +24,8 @@ int main(int argc, const char * argv[]) {
         lenth++;
     }
 //    guluguluSort(a,lenth,1);
-    selectSort(a,lenth,0);
+//    selectSort(a,lenth,0);
+  	quickSort(a,0,lenth);
     
     for(i=0;i<lenth;i++)
     {
