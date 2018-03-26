@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
     }
 //    guluguluSort(a,lenth,1);
 //    selectSort(a,lenth,0);
-  	quickSort(a,0,lenth);
+  	quickSort(a,0,lenth-1);
     
     for(i=0;i<lenth;i++)
     {

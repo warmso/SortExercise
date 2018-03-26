@@ -2,21 +2,26 @@
 
 void quickSort(int array[],int left,int right)
 {
-	int i=left;
+    if(left>=right)
+        return;
+    
+    int i=left;
 	int j=right;
-	int key=array[i];
+	int key=array[left];
 	
+    
+    
 	while(i<j)
 	{
-		while(i<j&&k<=array[j])
+		while(i<j&&key<=array[j])
 			j--;
-		a[i]=a[j];
-		while(i<j&&k>=array[j])
+		array[i]=array[j];
+		while(i<j&&key>=array[i])
 			i++;
-		a[j]=a[i];
+		array[j]=array[i];
 	}
-	a[i]=key;
+	array[i]=key;
+    
 	quickSort(array,left,i-1);
 	quickSort(array,i+1,right);
-	
 }

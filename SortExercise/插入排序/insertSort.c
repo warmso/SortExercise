@@ -43,28 +43,3 @@ void sortInsert(int array[],int lenth,int isMoreBigger)
             }
     }
 }
-
-int main()
-{
-    int array[100];
-    char s;
-    int i;
-    int lenth=0;
-    for(i=0;i<100&&s!='\n';i++)
-    {
-        scanf("%d",array+i);
-        s=getchar();
-        lenth++;
-    }
-    
-    sortInsert(array,lenth,1);
-    
-    for(i=0;i<lenth;i++)
-    {
-        printf("%d ",array[i]);
-    }
-    
-    
-    return 0;
-}
-
