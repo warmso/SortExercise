@@ -9,8 +9,6 @@ void quickSort(int array[],int left,int right)
 	int j=right;
 	int key=array[left];
 	
-    
-    
 	while(i<j)
 	{
 		while(i<j&&key<=array[j])

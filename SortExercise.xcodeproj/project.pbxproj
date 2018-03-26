@@ -12,6 +12,7 @@
 		898BA7E3205FE5DD0023272D /* selectSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 898BA7E1205FE5DD0023272D /* selectSort.c */; };
 		898BA7E9205FEA480023272D /* insertSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 898BA7E7205FEA480023272D /* insertSort.c */; };
 		899485192068DF34002A5C26 /* quickSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 899485172068DF34002A5C26 /* quickSort.c */; };
+		8994851C2068F3BF002A5C26 /* mergeSort.c in Sources */ = {isa = PBXBuildFile; fileRef = 8994851A2068F3BF002A5C26 /* mergeSort.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,8 @@
 		898BA7E8205FEA480023272D /* insertSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = insertSort.h; sourceTree = "<group>"; };
 		899485172068DF34002A5C26 /* quickSort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = quickSort.c; sourceTree = "<group>"; };
 		899485182068DF34002A5C26 /* quickSort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = quickSort.h; sourceTree = "<group>"; };
+		8994851A2068F3BF002A5C26 /* mergeSort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = mergeSort.c; sourceTree = "<group>"; };
+		8994851B2068F3BF002A5C26 /* mergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mergeSort.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +72,7 @@
 		898BA7D6205FD8070023272D /* SortExercise */ = {
 			isa = PBXGroup;
 			children = (
+				8994851D2068F3C7002A5C26 /* 归并排序 */,
 				899485162068DF34002A5C26 /* 快速排序 */,
 				898BA7EA205FEA510023272D /* 插入排序 */,
 				898BA7E6205FEA210023272D /* 冒泡排序 */,
@@ -112,6 +116,15 @@
 				899485172068DF34002A5C26 /* quickSort.c */,
 			);
 			path = "快速排序";
+			sourceTree = "<group>";
+		};
+		8994851D2068F3C7002A5C26 /* 归并排序 */ = {
+			isa = PBXGroup;
+			children = (
+				8994851B2068F3BF002A5C26 /* mergeSort.h */,
+				8994851A2068F3BF002A5C26 /* mergeSort.c */,
+			);
+			path = "归并排序";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,6 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8994851C2068F3BF002A5C26 /* mergeSort.c in Sources */,
 				898BA7D8205FD8070023272D /* main.m in Sources */,
 				898BA7E3205FE5DD0023272D /* selectSort.c in Sources */,
 				899485192068DF34002A5C26 /* quickSort.c in Sources */,
